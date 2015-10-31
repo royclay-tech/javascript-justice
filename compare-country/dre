@@ -7,15 +7,18 @@
       console.log("JavaScript Justice");
         
         //question1: find out if ned and mary live in the same country 
-        var user=prompt("what country do you live in?")
-        console.log("United States"
-        var user=prompt("what country do you live in?")
-       console.log("Canada")
-        var user=prompt("what is your name?")
-         console.log("ned")
-        var user=prompt("what is your name?")
-         console.log("MAry")
-        
+        var userC1= prompt("what country do you live in?")
+        console.log(userC1)
+      var userC2=prompt("what country do you live in?")
+     console.log(userC2)
+      var user1=prompt("what is your name?")
+       console.log(user1)
+    var user2=prompt("what is your name?")
+       console.log(user2)
+    if (userC1 === userC2 )
+      { confirm ("ned and mary live in the same country!") }  else
+      
+      { console.log("ned and mary don't live in the same country!") }
     </script>
     
   </body>
