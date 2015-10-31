@@ -1,0 +1,26 @@
+<html>
+    <head>
+       <title>JavaScript Justice</title>
+     </head>
+     <body>
+        <script>
+	//TOOO,step 1: find out what countries Ned and Mary live in
+	//TOOO,step 2:create a variable
+	//TOOO,step 3:run prompt
+	//TOOO,step 4:Start writing code!!!!!
+var user1=prompt("what is your name?")
+  console.log(user1);
+ var user2=prompt("what is your name?")
+ var user1=prompt("Where do you live?")
+  console.log(user1)
+  var user2=prompt("what country do you live in?")
+  console.log(user2)
+  
+  console.log(user1);
+
+</script>
+
+
+</body>
+
+</html>
