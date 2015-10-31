@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>JavaScript Justice</title>
+  </head>
+  <body>
+    <script>
+      console.log("JavaScript Justice");
+        
+        //question1: find out if ned and mary live in the same country 
+        var user=prompt("what country do you live in?")
+        console.log("United States"
+        var user=prompt("what country do you live in?")
+       console.log("Canada")
+        var user=prompt("what is your name?")
+         console.log("ned")
+        var user=prompt("what is your name?")
+         console.log("MAry")
+        
+    </script>
+    
+  </body>
+</html>
