@@ -1,0 +1,26 @@
+
+
+<html>
+  <head>
+    <title>JavaScript Justice</title>
+  </head>
+  <body>
+    <script>
+      console.log("JavaScript Justice");
+//Question 1: what country are ned and mary lives in?
+//Step 2 declare a variable
+var userOne=prompt("what is your name?");
+var userOneCountry=prompt("What country do you live in?");
+console.log(userOne);
+console.log(userOneCountry);
+var userTwo=prompt("what is your name?");
+var userTwoCountry=prompt("what country do you live in");
+console.log(userTwo);
+console.log(userTwoCountry);
+if(userOneCountry === userTwoCountry)
+console.log("Yes, Ned and Mary lives in the same country!");
+else
+console.log("Mary and Ned don't live in the same country.");
+    </script>
+  </body>
+</html>
