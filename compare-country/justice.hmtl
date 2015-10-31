@@ -1,0 +1,26 @@
+DOCTYPE! html
+<html>
+  <head>
+    <title>JavaScript Justice</title>
+  </head>
+  <body>
+    <script>
+      // TODO: put the answer to "What we doin'?"
+      // TODO: place our code here 
+var user1name = prompt("what is your name?")
+console.log(user1name) 
+var user1country = prompt("what country do you live in?")
+console.log(user1country) 
+var user2name = prompt("what is your name?")
+console.log(user2name)
+var user2country = prompt("what country do you live in?")
+console.log(user2country)
+if (user1country==user2country)
+{console.log ("they are from the same country");}
+    
+    else
+    {console.log("they are from different countires");}
+
+    </script>
+  </body>
+</html>
