@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>JavaScript Justice</title>
+  </head>
+  <body>
+    <script>
+     //TODO,step 1: find out what countries  Ned and Mary live in 
+        //TODO,step 2: create a variable  
+        //TODO, step 3 :run prompt
+        //TODO,step 4: START WRITING CODE!!!!!!!!
+  var user1=prompt("where is your country?")
+ 
+var user2 = confirm("Press a button!");
+if (user2 == true) {
+   console.log(user1); = "You pressed OK!";
+} else {
+    txt = "You pressed Cancel!";
+}
+        
+    </script>
+     
+      
+  </body>
+    
+</html>
