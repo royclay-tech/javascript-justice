@@ -17,19 +17,10 @@
       // use inspect > console to watch how this code runs
       // try to follow along as the code runs
       var n1 = prompt("Give me a name, please");
-      if(n1 === null){
-        console.log("user hit cancel on prompt, exiting the loop using the statment 'break;'");
-        break;
-      }
-
       var n2 = prompt("Give me another name, please");
-      if(n2 === null){
-        console.log("user hit cancel on prompt, exiting the loop using the statment 'break;'");
-        break;
-      }
 
       var longer_name = take_longer_name(n1, n2);
-      console.log(longer_name);
+      console.log("The longer name is " + longer_name);
     </script>
   </body>
 </html>
