@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>JavaScript Justice</title>
+  </head>
+  <body>
+    <script>
+    var user1name = prompt("What is your name?")
+    var user1country = prompt("In which country do you live?")
+    var user2name = prompt("What is your name?")
+    var user2country = prompt("In which country do you live?")n
+    var true1 = user1name.concat(" and ",user2name," live in the same country.")
+    var false1 = user1name.concat(" and ",user2name," do not live in the same country.")
+    if ((user1country) === (user2country))
+    {console.log(true1)}
+    else
+    {console.log(false1)}
+    </script>
+  </body>
+</html>
