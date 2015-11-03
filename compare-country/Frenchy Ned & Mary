@@ -21,9 +21,9 @@ var userTwoCountry=prompt("what country do you live in");
   console.log(userTwo);
   console.log(userTwoCountry);
 if(userOneCountry === userTwoCountry)
-console.log("Yes, Ned and Mary lives in the same country!");
+console.log("Yes, they live in the same country!");
 else
-console.log("Mary and Ned don't live in the same country.");
+console.log("They don't live in the same country.");
 }   
     </script>
   </body>
