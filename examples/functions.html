@@ -31,6 +31,17 @@
           console.log("Hello " + name);
         }
       }
+
+      function who_has_a_longer_favorite_fruit(name1, name2){
+        var fruit1 = prompt(name1 + ", what is your favorite friut?");
+        var fruit2 = prompt(name2 + ", what is your favorite friut?");
+        if(fruit1.length > fruit2.length){
+          return name1;
+        }
+        else {
+          return name2;
+        }
+      }
     </script>
   </body>
 </html>
