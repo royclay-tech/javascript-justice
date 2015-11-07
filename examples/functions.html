@@ -12,6 +12,25 @@
           console.log("Hello " + name);
         }
       }
+
+      function snub_someone_greeting(name, person_to_snub){
+        if(name === person_to_snub){
+          console.log("You suck!");
+        }
+        else {
+          console.log("Hello " + name);
+        }
+      }
+
+      function snub_someone_based_on_answer(name, question){
+        var answer = confirm(question);
+        if(answer){
+          console.log("You suck!");
+        }
+        else {
+          console.log("Hello " + name);
+        }
+      }
     </script>
   </body>
 </html>
