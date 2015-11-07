@@ -5,20 +5,19 @@
   <body>
     <script>
       // TODO: Write code that will ask the user for 2 names three times, each time printing out the shorter name
-     function shortName(name1,name2){
-    if(name1.length < name2.length){
-    return name1
-    }
-    else{
-    return name2
-      01  }
-    }
-    var name = prompt("Give me a name please.");
+        function take_shortest_name(name1, name2){
+       if(name1.length < name2.length){
+         return name1;
+       }
+       else {
+         return name2;
+       }
+     }
+     var name1 = prompt("Give me a name please?");
+     var name2 = prompt("May I please have a second name.");
     
-    var shorterName = shortName(n1,n2,n3)
-    
-      var longer_name = shortName(n1, n2);
-      console.log("The shorter name is " + longer_name);
+      var shorter_name = take_shortest_name(name1, name2);
+      console.log("The shorter name is " + shorter_name);
     
     
     </script>
