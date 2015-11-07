@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>JavaScript Justice - November 2</title>
+  </head>
+  <body>
+    <script>
+      function take_longer_name(name1, name2){
+        if(name1.length > name2.length){
+          return name1;
+        }
+        else {
+          return name2;
+        }
+      }
+
+      var longest_name = prompt("Can you give me an initial name?");
+      for(;;){
+        var new_name = prompt(longest_name + ", can you give me a new name?");
+        longest_name = take_longer_name(longest_name, new_name);
+      }
+    </script>
+  </body>
+</html>
