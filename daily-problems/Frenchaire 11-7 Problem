@@ -5,20 +5,20 @@
  <body>
    <script>
     // TODO: Keep asking for names and always address the person with the longest name so far
-   function take_Longer_name(name1, name2){
-        if(name1.length > name2.length);{
+     function take_Longer_name(name1, name2){
+     `if(name1.length > name2.length);{
           return name1;
         }
-        else{
+     `else {
           return name2;
-        }
+         }
         }
         
-   var take_Longest_name = prompt("Roger");
-      for(;;){
-      var  longest_Name = prompt(take_longest_Name + ", "Give me a new name");
+     var take_Longest_name = prompt("What is your name please?");
+     for(;;){
+     var  longest_Name = prompt(take_Longest_Name + ", "Give me a new name");
       }      
-    take_longest_Name = take_Longer_name(take_Longest_name, longest_Name);
+     take_Longest_Name = take_Longer_name(take_Longest_name, longest_Name);
       }
       
 </script>
