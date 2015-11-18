@@ -21,6 +21,27 @@
      take_Longest_Name = take_Longer_name(take_Longest_name, longest_Name);
       }
       
+      //This code is unrelated to the above lesson.
+      //From Codeacademy Paper Rock Scissors lesson 2 Freeaked OUt
+      var userChoice = prompt("Do you choose rock, paper or scissors?")
+var computerChoice = Math.random(); 
+    console.log(userChoice);
+    console.log(computerChoice);
+if(userChoice = scissors);
+{
+    console.log("Cut yo ass up!!!);
+else(userChoice = rock) 
+{
+    console.log("When you almost got a paper cut or knocked in the head with a rock.  Keep playing");
+}
+if(computerChoice < 1);
+{
+    console.log("Whoa that's a small decimal and it will change when you run the code again! TRY IT!")
+else
+    console.log("It's not a decimal!")
+}
+  
+    
 </script>
 </body>
 </html>
