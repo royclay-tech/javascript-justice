@@ -27,14 +27,14 @@
 var computerChoice = Math.random(); 
     console.log(userChoice);
     console.log(computerChoice);
-if(userChoice = scissors);
+if(userChoice = scissors)
 {
     console.log("Cut yo ass up!!!);
 else(userChoice = rock) 
 {
     console.log("When you almost got a paper cut or knocked in the head with a rock.  Keep playing");
 }
-if(computerChoice < 1);
+if(computerChoice < 1)
 {
     console.log("Whoa that's a small decimal and it will change when you run the code again! TRY IT!")
 else
