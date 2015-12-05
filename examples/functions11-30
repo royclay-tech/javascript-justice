@@ -1,6 +1,9 @@
 <html>
-	    <head>
-	         <title>
+  <head>
+    <title>JavaScript Justice</title>
+  </head>
+  <body>
+    <script>
 function rectangleArea(length, width) {
 	return length * width;
 	}
