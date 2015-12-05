@@ -10,13 +10,20 @@ function rectangleArea(length, width) {
 	
 rectangleArea(8, 5);
 
-var userAnswer = prompt("What's the area of a rectangle with a length of 8 * 5?")
+var userAnswer = +prompt("What's the area of a rectangle with a length of 8 * 5?")
 console.log(userAnswer);
 console.log("User says that a 8*5 rectangle has an area of " + userAnswer);
 var computerAnswer = rectangleArea(8,5)
 console.log("Computer says that a 8*5 rectangle has an area of " + computerAnswer);  
-console.log("computer and user agree");
+if(computerAnswer === userAnswer){
+    console.log("computer and user agree");
+}
+        else{
 console.log("Computer and user disagree:");
+        }
+            
+
+
 //separate examples
 console.log("A" + "B");
 prints out "AB"
