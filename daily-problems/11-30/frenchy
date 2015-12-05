@@ -1,0 +1,12 @@
+<html> 
+<head> 
+     <title>JavaScript Justice - November 30</title> 
+  </head> 
+  <body> 
+     <script> 
+      // TODO: Ask for a user's name and then address the user, telling them to congratulate Shawn 
+      var u1 = prompt("Give me a name, please");
+      console.log(u1 "Congratulate Shawn");
+          </script> 
+   </body> 
+ </html> 
