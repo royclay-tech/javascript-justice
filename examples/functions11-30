@@ -1,0 +1,28 @@
+<html>
+	    <head>
+	         <title>
+function rectangleArea(length, width) {
+	return length * width;
+	}
+	
+rectangleArea(7, 5);
+
+var userAnswer = prompt(“What’s the area of a rectangle with a length of 8 * 5)
+console.log(userAnswer);
+console.log("User says that a 8*5 rectangle has an area of" + userAnswer);
+console.log("Computer says that a 8*5 rectangle has an area of" + userAnswer) 
+
+//separate examples
+console.log("A" + "B");
+prints out "AB"
+
+var foo = "A" + "B" + "C";
+console.log(foo);
+prints out "ABC"
+
+console.log(Mike's" + foo);
+prints out "Mike's ABC"
+                 
+</script>
+  </body>
+</html>
